@@ -67,3 +67,38 @@ fault tolenrance, and security.
 - Data Encryption (HTTPS, TLS, AES)
 - OWASP Security Standards
 - Monitoring & Logging (Prometheus, Grafana, ELK Stack)
+- 
+
+
+## List of E-commerce Features
+- Full text search with the help of Elastic-Search
+- Login, Register, Login with Social media
+- Add to cart product
+- Checkout
+- Subscription-based products
+- Filtering products
+- Paginate products & Infinite products
+- Caching products
+- Internationalization
+- Platform for distributors
+- Process order (should be scalable)
+- Rating of the particular product
+- Customer reviews or comments of the user
+- Manage product data
+- Product Slider
+- Buy Product
+- Showing similar products suggessions
+- Integrate payment gateway system for handling payment
+- Handle Sell
+- Today deal
+- Customer service
+- Bestseller
+- Trending
+- Show advertisment
+- Account Management
+- Amazon Marketplace
+- Amazon Prime
+- Amazon Fresh & Pantry
+- Amazon Pay – Digital payment service
+- Amazon Subscribe & Save
+- Amazon Deals & Lightning Deals
