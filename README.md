@@ -1,3 +1,24 @@
+# Full Diagram: Live Streaming Flow
+    📹 Stadium Cameras
+          ↓
+    🎛 Broadcast Unit (Live Mix, Encoding)
+          ↓
+    🌐 Upload to Hotstar Media Ingest (AWS)
+          ↓
+    🧠 Transcoding & Chunking (HLS/DASH)
+          ↓
+    🗃 Store Segments (S3 or Blob Storage)
+          ↓
+    🚀 Push to CDN (CloudFront, Akamai)
+          ↓
+    📲 Hotstar App Requests Playlist (.m3u8)
+          ↓
+    📥 Streams Video Chunks (4s, adaptive bitrate)
+          ↓
+    👀 You watch Match in real time.
+
+
+
 # robust-product
 Best practices for building robust product which can handle billions of daily active users.
 
